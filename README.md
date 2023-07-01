@@ -2,11 +2,11 @@
 
 Wenn man dieses Programm startet, startet eine Webseite auf dem folgendem Link: http://localhost:3000/
 Das ist die Start-Seite und dann gibt es verschiedene Unterseiten:
-/karten
-/waffen
-/agenten
+/anime
+/characters
+/weapons
 
-Dort findet man die verschiedenen Valorant Eigenschaften der jeweiligen Seiten.
+Dort findet man die verschiedenen Informationen zu den unterschiedlichen Anime
 
 Dockerfile: Diese Docker-Datei baut ein Image auf dem Node.js-Image mit lts-alpine-Version auf. Sie installiert alle Projekt-Abhängigkeiten, gibt den Port frei und startet das Projekt. Die Datei ist gut dokumentiert und kommentiert für eine einfache Wartbarkeit des Images.
 
